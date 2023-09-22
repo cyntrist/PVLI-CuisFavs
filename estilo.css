@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Lato";
+  src: url('fnt/Lato-Regular.ttf');
+}
+
+html {
+  background-image: url('img/CUUUI.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Lato';
+}
+
+#lista {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+#ui {
+  list-style: none;
+  color: whitesmoke
+}
+
+#ui li {
+  margin: 5px;
+  padding-top: 15px;
+}
+
+#ui li::before {
+  content: "\203A";
+  color: whitesmoke;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#ui li::after {
+  content: "\2039";
+  color: whitesmoke;
+  margin-left: 5px;
+}
+
+.colizq,
+.colder,
+.colmed {
+  float: left;
+}
+
+.colizq, 
+.colder { 
+  width: 25%;
+}
+
+#botones {
+    margin-top: 15px;
+}
+
+.button {
+  margin: 15px;
+  background-color: #DD7B12;
+  color: whitesmoke;  
+  border-radius: 8px;
+}
+
+#livemascareaction {
+  margin: 15px;
+}
+
+.colmed {
+  margin-top: 50px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: #000000c2;
+  width: 50%;
+}
+
