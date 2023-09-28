@@ -4,11 +4,11 @@
 }
 
 html {
-  background-image: url('img/CUUUI.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: 'Lato';
+    background-image: url('img/CUUUI.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato';
 }
 
 #lista {
